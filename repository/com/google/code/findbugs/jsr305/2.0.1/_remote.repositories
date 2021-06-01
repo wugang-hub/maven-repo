@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue May 18 15:34:30 CST 2021
+jsr305-2.0.1.pom>nexus-aliyun=
+jsr305-2.0.1.jar>nexus=
+jsr305-2.0.1.pom>nexus=
+jsr305-2.0.1.jar>nexus-aliyun=

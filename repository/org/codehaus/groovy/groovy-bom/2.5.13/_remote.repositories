@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed May 26 13:55:04 CST 2021
+groovy-bom-2.5.13.pom>huaweicloud=
+groovy-bom-2.5.13.pom>central=
+groovy-bom-2.5.13.pom>nexus=

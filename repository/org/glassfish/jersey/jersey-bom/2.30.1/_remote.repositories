@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed May 26 13:55:05 CST 2021
+jersey-bom-2.30.1.pom>nexus=
+jersey-bom-2.30.1.pom>central=
+jersey-bom-2.30.1.pom>alimaven=

@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue May 18 15:34:41 CST 2021
+xz-1.8.jar>nexus=
+xz-1.8.pom>nexus=
+xz-1.8.jar>nexus-aliyun=
+xz-1.8.pom>nexus-aliyun=

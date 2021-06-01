@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed May 26 13:55:26 CST 2021
+shrinkwrap-resolver-bom-2.2.0.pom>nexus=
+shrinkwrap-resolver-bom-2.2.0.pom>central=
+shrinkwrap-resolver-bom-2.2.0.pom>alimaven=
+shrinkwrap-resolver-bom-2.2.0.pom>nexus-aliyun=

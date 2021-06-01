@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed May 26 13:55:58 CST 2021
+javax.servlet-api-4.0.1.jar>nexus=
+javax.servlet-api-4.0.1.pom>nexus=
+javax.servlet-api-4.0.1.jar>central=
+javax.servlet-api-4.0.1.pom>central=

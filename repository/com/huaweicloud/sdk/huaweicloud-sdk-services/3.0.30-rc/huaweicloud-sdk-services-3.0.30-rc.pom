@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.huaweicloud.sdk</groupId>
+        <version>3.0.30-rc</version>
+        <artifactId>huaweicloud-sdk</artifactId>
+    </parent>
+    <groupId>com.huaweicloud.sdk</groupId>
+    <artifactId>huaweicloud-sdk-services</artifactId>
+    <version>3.0.30-rc</version>
+    <packaging>pom</packaging>
+    <name>Huaweicloud SDK for Java Services</name>
+    <description>Services code for Huaweicloud SDK for Java</description>
+    <url>https://github.com/huaweicloud/huaweicloud-sdk-java-v3</url>
+
+    <modules>
+        <module>as</module>
+        <module>vpc</module>
+        <module>cts</module>
+        <module>ecs</module>
+        <module>live</module>
+        <module>rms</module>
+        <module>apig</module>
+        <module>osm</module>
+        <module>drs</module>
+        <module>bss</module>
+        <module>kms</module>
+        <module>dds</module>
+        <module>dms</module>
+        <module>bms</module>
+        <module>rabbitmq</module>
+        <module>nat</module>
+        <module>evs</module>
+        <module>swr</module>
+        <module>projectman</module>
+        <module>classroom</module>
+        <module>dws</module>
+        <module>iam</module>
+        <module>sms</module>
+        <module>codecheck</module>
+        <module>antiddos</module>
+        <module>moderation</module>
+        <module>cloudpipeline</module>
+        <module>smn</module>
+        <module>scm</module>
+        <module>cloudtest</module>
+        <module>devstar</module>
+        <module>rds</module>
+        <module>functiongraph</module>
+        <module>dli</module>
+        <module>ces</module>
+        <module>kafka</module>
+        <module>dc</module>
+        <module>dcs</module>
+        <module>bssintl</module>
+        <module>eps</module>
+        <module>iotda</module>
+        <module>oms</module>
+        <module>ims</module>
+        <module>cce</module>
+        <module>meeting</module>
+        <module>mrs</module>
+        <module>roma</module>
+        <module>dgc</module>
+        <module>cloudbuild</module>
+        <module>eip</module>
+        <module>bcs</module>
+        <module>aom</module>
+        <module>image</module>
+        <module>mpc</module>
+        <module>cloudide</module>
+        <module>elb</module>
+        <module>cbr</module>
+        <module>servicestage</module>
+        <module>tms</module>
+    </modules>
+</project>

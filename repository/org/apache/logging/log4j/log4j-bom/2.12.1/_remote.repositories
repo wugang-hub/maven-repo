@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue May 18 15:33:12 CST 2021
+log4j-bom-2.12.1.pom>nexus=
+log4j-bom-2.12.1.pom>nexus-aliyun=

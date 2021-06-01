@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Apr 01 15:50:28 CST 2021
+guava-29.0-jre.jar>nexus=
+guava-29.0-jre.pom>nexus=

@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Apr 01 16:06:08 CST 2021
+feign-slf4j-10.10.1.pom>alimaven=
+feign-slf4j-10.10.1.jar>nexus=
+feign-slf4j-10.10.1.pom>nexus=

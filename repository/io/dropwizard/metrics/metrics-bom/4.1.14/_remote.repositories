@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed May 26 13:55:03 CST 2021
+metrics-bom-4.1.14.pom>huaweicloud=
+metrics-bom-4.1.14.pom>nexus=
+metrics-bom-4.1.14.pom>central=

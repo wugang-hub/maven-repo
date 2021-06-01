@@ -1,0 +1,9 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed May 26 13:55:58 CST 2021
+slf4j-api-1.7.30.pom>alimaven=
+slf4j-api-1.7.30.jar>nexus=
+slf4j-api-1.7.30.pom>nexus=
+slf4j-api-1.7.30.pom>central=
+slf4j-api-1.7.30.jar>central=
+slf4j-api-1.7.30.jar>nexus-aliyun=
+slf4j-api-1.7.30.pom>nexus-aliyun=

@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-dependencies</artifactId>
+        <version>2.2.6.RELEASE</version>
+        <relativePath /> <!-- lookup parent from repository -->
+    </parent>
+
+    <groupId>cn.cframework</groupId>
+    <artifactId>cframework-dependencies</artifactId>
+    <version>1.1.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>cframework-dependencies</name>
+    <description>cframework dependencies</description>
+
+    <properties>
+        <alibaba.cloud.version>2.2.1.RELEASE</alibaba.cloud.version>
+        <cframework.version>1.1.1-SNAPSHOT</cframework.version>
+        <commons-lang3.version>3.10</commons-lang3.version>
+        <druid.version>1.1.22</druid.version>
+        <elasticsearch.version>7.6.0</elasticsearch.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+        <spring-boot.version>2.2.6.RELEASE</spring-boot.version>
+        <spring-cloud.version>Hoxton.SR7</spring-cloud.version>
+
+        <lombock.version>1.18.12</lombock.version>
+        <maven.compiler.source>${java.version}</maven.compiler.source>
+        <maven.compiler.target>${java.version}</maven.compiler.target>
+        <maven.test.skip>true</maven.test.skip>
+        <release-train>Moore-SR7</release-train>
+        <skipTests>true</skipTests>
+        <swagger.version>2.9.2</swagger.version>
+        <shiro.version>1.5.2</shiro.version>
+        <spring-security-core.version>5.1.5.RELEASE</spring-security-core.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+<!--            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>${spring-boot.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>-->
+
+            <dependency>
+                <groupId>org.springframework.data</groupId>
+                <artifactId>spring-data-releasetrain</artifactId>
+                <version>${release-train}</version>
+                <scope>import</scope>
+                <type>pom</type>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>${spring-cloud.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>com.alibaba.cloud</groupId>
+                <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+                <version>${alibaba.cloud.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>cn.cframework</groupId>
+                <artifactId>cframework-spring-boot-starter</artifactId>
+                <version>${cframework.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>cn.cframework</groupId>
+                <artifactId>cframework-core</artifactId>
+                <version>${cframework.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>cn.cframework</groupId>
+                <artifactId>cframework-common</artifactId>
+                <version>${cframework.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>cn.cframework</groupId>
+                <artifactId>cframework-web</artifactId>
+                <version>${cframework.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>cn.cframework</groupId>
+                <artifactId>cframework-logger</artifactId>
+                <version>${cframework.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>cn.cframework</groupId>
+                <artifactId>cframework-monitor</artifactId>
+                <version>${cframework.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>cn.cframework</groupId>
+                <artifactId>cframework-data</artifactId>
+                <version>${cframework.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>cn.cframework</groupId>
+                <artifactId>cframework-data-mybatis</artifactId>
+                <version>${cframework.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>cn.cframework</groupId>
+                <artifactId>cframework-data-mongodb</artifactId>
+                <version>${cframework.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>cn.cframework.data</groupId>
+                <artifactId>cframework-data-elasticsearch</artifactId>
+                <version>${cframework.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>cn.cframework</groupId>
+                <artifactId>cframework-script</artifactId>
+                <version>${cframework.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>cn.cframework</groupId>
+                <artifactId>cframework-devtool</artifactId>
+                <version>${cframework.version}</version>
+            </dependency>
+
+            <!-- Spring Boot 1.5.x 以上的版本就不再支持 Velocity 模版 -->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-velocity</artifactId>
+                <version>1.4.7.RELEASE</version>
+            </dependency>
+
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>4.12</version>
+                <scope>test</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.poi</groupId>
+                <artifactId>poi-ooxml</artifactId>
+                <version>3.15</version>
+            </dependency>
+            <dependency>
+                <groupId>io.springfox</groupId>
+                <artifactId>springfox-swagger2</artifactId>
+                <version>2.6.1</version>
+            </dependency>
+            <dependency>
+                <groupId>io.springfox</groupId>
+                <artifactId>springfox-swagger-ui</artifactId>
+                <version>${lombock.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.jsoup</groupId>
+                <artifactId>jsoup</artifactId>
+                <version>1.11.3</version>
+                <scope>compile</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombock.version}</version>
+                <optional>true</optional>
+            </dependency>
+
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-boot-starter</artifactId>
+                <version>3.3.1</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.shiro</groupId>
+                <artifactId>shiro-core</artifactId>
+                <version>${shiro.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.shiro</groupId>
+                <artifactId>shiro-spring</artifactId>
+                <version>${shiro.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.security</groupId>
+                <artifactId>spring-security-core</artifactId>
+                <version>${spring-security-core.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-generator</artifactId>
+                <version>3.3.1</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>druid-spring-boot-starter</artifactId>
+                <version>${druid.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>druid</artifactId>
+                <version>${druid.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>1.2.68</version>
+                <!-- <scope>compile</scope>-->
+            </dependency>
+
+            <!-- Apache Commons 相关工具 -->
+
+            <dependency>
+                <groupId>commons-lang2</groupId>
+                <artifactId>commons-lang2</artifactId>
+                <version>3.10</version>
+            </dependency>
+            <dependency>
+                <groupId>commons-fileupload</groupId>
+                <artifactId>commons-fileupload</artifactId>
+                <version>1.2.2</version>
+            </dependency>
+            <dependency>
+                <groupId>commons-io</groupId>
+                <artifactId>commons-io</artifactId>
+                <version>2.5</version>
+            </dependency>
+            <dependency>
+                <groupId>commons-codec</groupId>
+                <artifactId>commons-codec</artifactId>
+                <version>1.10</version>
+            </dependency>
+            <dependency>
+                <groupId>commons-configuration</groupId>
+                <artifactId>commons-configuration</artifactId>
+                <version>1.10</version>
+            </dependency>
+            <dependency>
+                <groupId>commons-dbutils</groupId>
+                <artifactId>commons-dbutils</artifactId>
+                <version>1.7</version>
+            </dependency>
+
+            <!-- knife4j 接口文档 -->
+            <dependency>
+                <groupId>com.github.xiaoymin</groupId>
+                <artifactId>knife4j-spring-boot-starter</artifactId>
+                <version>2.0.2</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.httpcomponents</groupId>
+                <artifactId>httpclient</artifactId>
+                <version>4.5.12</version>
+                <scope>compile</scope>
+            </dependency>
+
+            <!-- xml工具包 -->
+            <dependency>
+                <groupId>org.dom4j</groupId>
+                <artifactId>dom4j</artifactId>
+                <version>2.1.3</version>
+                <scope>compile</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>com.google.code.gson</groupId>
+                <artifactId>gson</artifactId>
+                <version>2.8.6</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.google.guava</groupId>
+                <artifactId>guava</artifactId>
+                <version>29.0-jre</version>
+            </dependency>
+
+            <!-- https://mvnrepository.com/artifact/com.alibaba/easyexcel -->
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>easyexcel</artifactId>
+                <version>2.1.7</version>
+            </dependency>
+
+            <dependency>
+                <groupId>cn.hutool</groupId>
+                <artifactId>hutool-all</artifactId>
+                <version>5.3.7</version>
+            </dependency>
+
+            <!-- SQL 性能分析 -->
+            <dependency>
+                <groupId>p6spy</groupId>
+                <artifactId>p6spy</artifactId>
+                <version>3.9.0</version>
+            </dependency>
+
+            <!-- 分布式锁 -->
+            <dependency>
+                <groupId>org.redisson</groupId>
+                <artifactId>redisson-spring-boot-starter</artifactId>
+                <version>3.13.3</version>
+            </dependency>
+            <!-- Java图形验证码 https://github.com/whvcse/EasyCaptcha -->
+            <dependency>
+                <groupId>com.github.whvcse</groupId>
+                <artifactId>easy-captcha</artifactId>
+                <version>1.6.2</version>
+            </dependency>
+
+
+        </dependencies>
+    </dependencyManagement>
+    <distributionManagement>
+        <repository>
+            <id>nexus</id>
+            <name>releases</name>
+            <url>http://192.168.0.132:8081/repository/maven-releases/</url>
+            <uniqueVersion>true</uniqueVersion>
+        </repository>
+        <snapshotRepository>
+            <id>nexus</id>
+            <name>snapshots</name>
+            <url>http://192.168.0.132:8081/repository/maven-snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
+</project>

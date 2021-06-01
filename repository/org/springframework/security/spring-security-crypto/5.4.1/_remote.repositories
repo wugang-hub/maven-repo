@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Apr 01 16:06:07 CST 2021
+spring-security-crypto-5.4.1.jar>nexus=
+spring-security-crypto-5.4.1.pom>nexus=
+spring-security-crypto-5.4.1.pom>alimaven=

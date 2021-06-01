@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Apr 01 16:06:07 CST 2021
+spring-cloud-openfeign-core-3.0.0.pom>alimaven=
+spring-cloud-openfeign-core-3.0.0.jar>nexus=
+spring-cloud-openfeign-core-3.0.0.pom>nexus=

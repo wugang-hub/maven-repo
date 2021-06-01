@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Apr 01 16:06:07 CST 2021
+http\://192.168.0.132\:8081/repository/maven-public/.error=Could not transfer artifact io.github.openfeign.form\:parent\:pom\:3.8.0 from/to nexus (http\://192.168.0.132\:8081/repository/maven-public/)\: Connect to 192.168.0.132\:8081 [/192.168.0.132] failed\: Connection timed out\: connect
+14399ca34b73858bd6485939a9872a7cea402a07@default-nexus-http\://192.168.0.132\:8081/repository/maven-public/.lastUpdated=1617262807142
+http\://172.22.16.132\:8081/repository/maven-public/.lastUpdated=1617264367726
+http\://maven.aliyun.com/nexus/content/groups/public/.lastUpdated=1617262807994

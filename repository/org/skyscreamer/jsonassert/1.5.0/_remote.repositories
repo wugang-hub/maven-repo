@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue May 18 15:34:08 CST 2021
+jsonassert-1.5.0.jar>nexus-aliyun=
+jsonassert-1.5.0.pom>nexus=
+jsonassert-1.5.0.jar>nexus=
+jsonassert-1.5.0.pom>nexus-aliyun=

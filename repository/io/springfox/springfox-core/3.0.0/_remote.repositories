@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed May 26 13:55:58 CST 2021
+springfox-core-3.0.0.pom>nexus=
+springfox-core-3.0.0.jar>nexus=
+springfox-core-3.0.0.jar>central=

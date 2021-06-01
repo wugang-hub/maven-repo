@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue May 18 15:35:53 CST 2021
+commons-digester-1.8.jar>nexus=
+commons-digester-1.8.pom>nexus-aliyun=
+commons-digester-1.8.pom>nexus=
+commons-digester-1.8.jar>nexus-aliyun=

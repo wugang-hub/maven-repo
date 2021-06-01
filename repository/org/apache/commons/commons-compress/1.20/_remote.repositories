@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Apr 01 15:53:00 CST 2021
+commons-compress-1.20.jar>nexus=
+commons-compress-1.20.pom>nexus=

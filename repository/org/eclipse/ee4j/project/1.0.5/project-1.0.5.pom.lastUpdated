@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed May 26 13:55:05 CST 2021
+http\://192.168.0.132\:8081/repository/maven-public/.error=Could not transfer artifact org.eclipse.ee4j\:project\:pom\:1.0.5 from/to nexus (http\://192.168.0.132\:8081/repository/maven-public/)\: Connect to 192.168.0.132\:8081 [/192.168.0.132] failed\: Connection timed out\: connect
+https\://repo.maven.apache.org/maven2/.lastUpdated=1622008505717
+14399ca34b73858bd6485939a9872a7cea402a07@default-nexus-http\://192.168.0.132\:8081/repository/maven-public/.lastUpdated=1617262548934
+http\://172.22.16.132\:8081/repository/maven-public/.lastUpdated=1617264367211
+http\://maven.aliyun.com/nexus/content/groups/public/.lastUpdated=1621323193856
